@@ -13,6 +13,8 @@ import { BaseurlService } from './baseurl.service';
 import { DataServiceService } from './data-service.service';
 import { UserDataService } from './user-data.service';
 import {RegisterService} from './register.service';
+import { WorkoutComponent } from './workout/workout.component';
+import { WorkoutlistComponent } from './workoutlist/workoutlist.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import {RegisterService} from './register.service';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    WorkoutComponent,
+    WorkoutlistComponent
   ],
   imports: [
     BrowserModule,
