@@ -15,7 +15,8 @@ import { UserDataService } from './user-data.service';
 import {RegisterService} from './register.service';
 import { WorkoutComponent } from './workout/workout.component';
 import { WorkoutlistComponent } from './workoutlist/workoutlist.component';
-
+import {WorkoutListService} from './workout-list.service'
+import {WorkoutService} from './workout.service';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,9 @@ import { WorkoutlistComponent } from './workoutlist/workoutlist.component';
     BaseurlService,
     DataServiceService,
     UserDataService,
-    RegisterService
+    RegisterService,
+    WorkoutListService,
+    WorkoutService
   ],
   bootstrap: [AppComponent]
 })
