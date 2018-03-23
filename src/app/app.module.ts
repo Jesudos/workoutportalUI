@@ -22,6 +22,7 @@ import {WorkouttxnlistService} from './workouttxnlist.service';
 import { WorkouttxnComponent } from './workouttxn/workouttxn.component';
 import {WorkouttxnService} from './workouttxn.service';
 import { DlDateTimePickerDateModule } from 'angular-bootstrap-datetimepicker';
+import { AlertComponent } from './alert/alert.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { DlDateTimePickerDateModule } from 'angular-bootstrap-datetimepicker';
     WorkoutComponent,
     WorkoutlistComponent,
     WorkoutTxnlistComponent,
-    WorkouttxnComponent
+    WorkouttxnComponent,
+    AlertComponent
   ],
   imports: [
     BrowserModule,
